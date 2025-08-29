@@ -6,11 +6,12 @@ This is a task to make a management system for a certain company (you can think 
 
 ## Strart the project
 
+clone the project from this link (https://github.com/MahmoudRomman/Mahmoud_Abu_Romman_Management_Project.git)
 powershell
 # create an environment
 python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
+.\venv/bin/activate  
+
 
 # install all the requirements
 pip install -r requirements.txt
