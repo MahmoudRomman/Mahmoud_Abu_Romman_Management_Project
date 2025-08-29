@@ -1,0 +1,141 @@
+[2025-08-29 20:35:49,598] INFO core.views User user1@example.com (employee) requested department dept-1 in company comp-a
+[2025-08-29 20:35:49,598] DEBUG core.views Returning details for department dept-1 in company comp-a
+[2025-08-29 20:35:50,951] INFO core.views [superadmin@test.com (superadmin)] fetched all employees (superadmin).
+[2025-08-29 20:35:52,288] INFO core.views [superadmin@test.com (superadmin)] viewed details for employee employee_user@test.com - Test Company.
+[2025-08-29 20:35:53,597] WARNING core.views [company_admin@test.com (company_admin)] failed to create employee due to validation errors: {'designation': [ErrorDetail(string='This field is required.', code='required')]}
+[2025-08-29 20:35:53,600] WARNING django.request Bad Request: /api/employees/create/
+[2025-08-29 20:35:55,173] INFO core.views [superadmin@test.com (superadmin)] updating employee employee_user@test.com - Test Company.
+[2025-08-29 20:35:57,788] INFO core.views [superadmin@test.com (superadmin)] deleted employee employee_user@test.com - Test Company.
+[2025-08-29 20:35:59,006] INFO core.views User superadmin@test.com (superadmin) requested company list
+[2025-08-29 20:35:59,006] DEBUG core.views Returning 0 companies
+[2025-08-29 20:35:59,006] INFO core requested company list
+[2025-08-29 20:36:57,357] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\models.py changed, reloading.
+[2025-08-29 20:36:58,399] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:38:19,353] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 20:38:20,215] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:41:01,836] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\serializers.py changed, reloading.
+[2025-08-29 20:41:03,031] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:41:25,804] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\urls.py changed, reloading.
+[2025-08-29 20:41:27,074] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:41:32,053] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\urls.py changed, reloading.
+[2025-08-29 20:41:33,309] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:41:35,385] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\urls.py changed, reloading.
+[2025-08-29 20:41:36,276] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:41:46,564] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:41:47,739] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:42:02,137] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\serializers.py changed, reloading.
+[2025-08-29 20:42:03,069] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:42:06,751] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\serializers.py changed, reloading.
+[2025-08-29 20:42:07,747] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:42:10,279] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\serializers.py changed, reloading.
+[2025-08-29 20:42:11,460] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:42:14,063] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\serializers.py changed, reloading.
+[2025-08-29 20:42:15,011] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:42:16,448] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\serializers.py changed, reloading.
+[2025-08-29 20:42:17,226] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:42:18,789] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\serializers.py changed, reloading.
+[2025-08-29 20:42:19,615] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:42:21,034] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\serializers.py changed, reloading.
+[2025-08-29 20:42:21,953] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:43:12,424] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:43:14,230] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:43:16,973] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:43:18,097] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:43:26,603] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:43:27,789] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:43:32,055] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:43:33,042] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:43:35,784] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:43:36,870] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:43:38,661] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:43:39,598] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:43:44,528] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:43:45,630] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:43:49,611] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:43:50,424] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:43:52,096] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:43:52,952] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:44:00,091] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:44:00,889] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:44:05,888] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:44:07,138] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:44:09,016] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:44:10,136] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:44:32,536] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:44:34,043] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:45:06,174] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:45:07,077] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:46:28,085] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:46:29,039] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:46:43,843] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\views.py changed, reloading.
+[2025-08-29 20:46:44,813] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 20:47:25,965] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\urls.py changed, reloading.
+[2025-08-29 20:47:26,833] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:01:13,010] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\models.py changed, reloading.
+[2025-08-29 22:01:14,519] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:01:36,167] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:01:37,216] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:01:41,210] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:01:42,439] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:01:45,310] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:01:46,419] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:02:01,123] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:02:02,188] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:02:05,001] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:02:05,836] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:02:28,315] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:02:29,421] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:03:01,557] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:03:02,494] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:03:05,502] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:03:06,512] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:03:09,406] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:03:10,581] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:03:12,367] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:03:13,441] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:03:16,392] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:03:17,537] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:03:19,301] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:03:20,217] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:03:26,308] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:03:27,330] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:03:29,055] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:03:29,925] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:03:31,674] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:03:32,511] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:03:35,414] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:03:36,630] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:03:44,828] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:03:46,208] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:03:52,518] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:03:53,721] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:04:01,115] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:04:02,418] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:04:16,203] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:04:17,097] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:04:19,905] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:04:20,806] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:04:22,497] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:04:23,291] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:04:25,139] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:04:26,212] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:04:27,995] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:04:29,072] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:04:30,897] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:04:31,814] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:04:37,997] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:04:39,126] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:04:52,693] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:04:53,573] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:05:06,110] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\core\custom_permissions.py changed, reloading.
+[2025-08-29 22:05:07,027] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:05:39,133] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\accounts\models.py changed, reloading.
+[2025-08-29 22:05:39,961] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:08:44,471] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\accounts\urls.py changed, reloading.
+[2025-08-29 22:08:45,855] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:08:47,784] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\accounts\urls.py changed, reloading.
+[2025-08-29 22:08:48,618] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:08:50,417] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\accounts\urls.py changed, reloading.
+[2025-08-29 22:08:51,263] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-08-29 22:09:22,304] INFO django.utils.autoreload D:\Coding\projects\Mahmoud_Abu_Romman_Management_Project\project\settings.py changed, reloading.
+[2025-08-29 22:22:49,651] INFO django.utils.autoreload Watching for file changes with StatReloader
